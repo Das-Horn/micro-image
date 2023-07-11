@@ -1,0 +1,9 @@
+const unsigned long epd_bitmap_114117 [] PROGMEM = {
+    |
+};
+
+// Array of all bitmaps for convenience. (Total bytes used to store images in PROGMEM = 4816)
+const int epd_bitmap_allArray_LEN = 1;
+const unsigned long* epd_bitmap_allArray[1] = {
+	
+};

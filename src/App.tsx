@@ -39,13 +39,16 @@ function App() {
         <div id="formCont">
           <input type="file" onChange={draw_image} id="fileIn" accept="image/jpeg, image/png, image/jpg"></input>
           <label>Resolution X:</label>
-          <input type="number"></input>
+          <input min="10" type="number" value={10}></input>
           <label>Resolution Y:</label>
-          <input type="number"></input>
+          <input min="10" type="number" value={10}></input>
           <select>
             <option value="RGB-8">RGB 8-bit</option>
           </select>
           <input type="textfield" ></input>
+        </div>
+        <div className="ArrayCont">
+
         </div>
       </div>
     </div>
